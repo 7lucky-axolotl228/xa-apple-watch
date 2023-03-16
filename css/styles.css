@@ -34,6 +34,10 @@ img {
   height: auto;
 }
 
+*:focus {
+  outline: 2px dashed var(--primary);
+  outline-offset: 2px;
+}
 
 /* CONTAINER */
 .container {
@@ -97,6 +101,8 @@ img {
 
 .sitenav-link {
   display: block;
+  padding-top: 6px;
+  padding-bottom: 3px;
   font-size: 15px;
   color: var(--text-color);
   text-decoration: none;
@@ -104,8 +110,6 @@ img {
 }
 
 .sitenav-link:hover {
-  padding-top: 6px;
-  padding-bottom: 3px;
   color: var(--primary);
   border-bottom: 3px solid var(--text-color);
 }
